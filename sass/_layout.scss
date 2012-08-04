@@ -1,0 +1,23 @@
+/*-------------------------------------*
+ * Layout
+ *-------------------------------------*/
+
+/*-- Global ---------------------------*/
+@mixin clearfix {
+  :after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+  }
+}
+
+/*-- Grid -----------------------------*/
+.group {
+  @include clearfix;
+}
+
+.col {
+  float: left;
+}
