@@ -11,5 +11,5 @@
       <h3>Heading Three</h3>
       <p>Bespoke raw denim semiotics, photo booth stumptown brooklyn single-origin coffee cardigan odd future godard narwhal echo park. Freegan wes anderson authentic, biodiesel mcsweeney's american apparel beard farm-to-table brunch. Artisan bicycle rights ethical, authentic narwhal lomo single-origin coffee mustache small batch fingerstache. Raw denim etsy trust fund, truffaut gastropub sartorial freegan wolf lo-fi ethnic bespoke fixie cray. Vice butcher gluten-free skateboard, PBR 8-bit wes anderson. VHS lomo whatever, pork belly bicycle rights viral kogi. Ethnic squid gentrify quinoa, 3 wolf moon cliche bicycle rights.</p>
       <p>Seitan cardigan whatever, mcsweeney's bespoke retro mixtape blog leggings. Keffiyeh bespoke lomo artisan, gluten-free VHS iphone cosby sweater tattooed vegan. Brooklyn authentic cliche farm-to-table. Mixtape dreamcatcher tumblr echo park put a bird on it, banksy american apparel whatever chambray food truck fap mustache. Skateboard master cleanse brunch swag. Carles brunch freegan bicycle rights squid, polaroid leggings small batch pitchfork echo park letterpress. Banh mi marfa brunch banksy synth readymade.</p>
-    </section>2
+    </section>
 <? include $_SERVER['DOCUMENT_ROOT'] . 'inc/footer.php'; ?>
