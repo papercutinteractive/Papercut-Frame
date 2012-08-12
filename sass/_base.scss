@@ -1,0 +1,106 @@
+/*-------------------------------------*
+ * Two Floted Columns
+ * Arguments:
+ * $float-direction : left (default)
+ * $padding-col-a   : 0    (default)
+ * $padding-col-b   : 0    (default)
+ * $width-col-a     : 50%  (default)
+ * $width-col-b     : 50%  (default)
+ *-------------------------------------*/
+@mixin two-col($float-direction: left, $padding-col-a: 0, $padding-col-b: 0, $width-col-a: 50%, $width-col-b: 50%) {
+  @include legacy-pie-clearfix;
+  .col-a, .col-b {
+      float: $float-direction;
+  }
+  .col-a {
+    padding: $padding-col-a;
+      width: $width-col-b;
+  }
+  .col-b {
+    padding: $padding-col-b;
+      width: $width-col-b;
+  }
+}
+
+/*-------------------------------------*
+ * Three Floted Columns
+ * Arguments:
+ * $float-direction : left       (default)
+ * $padding-col-a   : 0          (default)
+ * $padding-col-b   : 0          (default)
+ * $padding-col-c   : 0          (default)
+ * $width-col-a     : 33.333333% (default)
+ * $width-col-b     : 33.333333% (default)
+ * $width-col-c     : 33.333333% (default)
+ *-------------------------------------*/
+@mixin three-col($float-direction: left, $padding-col-a: 0, $padding-col-b: 0, $padding-col-c: 0, $width-col-a: 33.333333%, $width-col-b: 33.333333%, $width-col-c: 33.333333%) {
+  @include legacy-pie-clearfix;
+  .col-a, .col-b {
+      float: $float-direction;
+  }
+  .col-a {
+    padding: $padding-col-a;
+      width: $width-col-b;
+  }
+  .col-b {
+    padding: $padding-col-b;
+      width: $width-col-b;
+  }
+  .col-c {
+    padding: $padding-col-c;
+      width: $width-col-c;
+  }
+}
+
+/*-------------------------------------*
+ * Four Floted Columns
+ * Arguments:
+ * $float-direction : left (default)
+ * $padding-col-a   : 0    (default)
+ * $padding-col-b   : 0    (default)
+ * $padding-col-c   : 0    (default)
+ * $padding-col-d   : 0    (default)
+ * $width-col-a     : 25%  (default)
+ * $width-col-b     : 25%  (default)
+ * $width-col-c     : 25%  (default)
+ * $width-col-d     : 25%  (default)
+ *-------------------------------------*/
+@mixin four-col($float-direction: left, $padding-col-a: 0, $padding-col-b: 0, $padding-col-c: 0, $padding-col-d: 0, $width-col-a: 25%, $width-col-b: 25%, $width-col-c: 25%, $width-col-d: 25%) {
+  @include legacy-pie-clearfix;
+  .col-a, .col-b {
+      float: $float-direction;
+  }
+  .col-a {
+    padding: $padding-col-a;
+      width: $width-col-b;
+  }
+  .col-b {
+    padding: $padding-col-b;
+      width: $width-col-b;
+  }
+  .col-c {
+    padding: $padding-col-c;
+      width: $width-col-c;
+  }
+  .col-d {
+    padding: $padding-col-d;
+      width: $width-col-d;
+  }
+}
+
+/*-- Grid -----------------------------*/
+.group-one {
+  @include clearfix;
+}
+
+.group-two {
+  @include two-col;
+}
+
+.group-three {
+  @include three-col;
+}
+
+.group-four {
+  @include four-col;
+}
